@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="MappingConfig\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Leadzum.Framework.Data\Leadzum.Framework.Data.csproj" />
+    <ProjectReference Include="..\Leadzum.Framework.DomainModel\Leadzum.Framework.DomainModel.csproj" />
+    <ProjectReference Include="..\Leadzum.Utility\Leadzum.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
