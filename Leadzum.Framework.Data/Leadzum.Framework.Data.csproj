@@ -1,12 +1,39 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Migrations\20190531003450_LeadzumFramework.cs" />
     <Compile Remove="Migrations\20190531003450_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190608122443_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190608122443_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924010755_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924010755_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924151636_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924151636_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924152155_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924152155_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924152317_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924152317_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924152456_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924152456_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924152814_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924152814_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924153012_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924153012_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924153800_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924153800_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190924154219_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190924154219_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190925152732_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190925152732_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190925164153_LeadzumFramework.cs" />
+    <Compile Remove="Migrations\20190925164153_LeadzumFramework.Designer.cs" />
+    <Compile Remove="Migrations\20190928150622_Leadzum.cs" />
+    <Compile Remove="Migrations\20190928150622_Leadzum.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

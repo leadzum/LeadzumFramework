@@ -30,7 +30,7 @@ namespace Leadzum.Framework.Data.Entities
         /// <summary>
         /// Child RolePermissions where [RolePermission].[PermissionId] point to this entity (FK_dbo.RolePermission_dbo.Permission_PermissionId)
         /// </summary>
-        public ICollection<RolePermission> RolePermissions { get; set; } // RolePermission.FK_dbo.RolePermission_dbo.Permission_PermissionId
+        public virtual ICollection<RolePermission> RolePermissions { get; set; } // RolePermission.FK_dbo.RolePermission_dbo.Permission_PermissionId
 
         // Foreign keys
 

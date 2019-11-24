@@ -18,7 +18,17 @@ namespace Leadzum.Framework.Data.IdentityEntities
              .HasColumnType("DateTime").HasDefaultValueSql("GetDate()");
 
             builder.Property(p => p.LastModifiedOnDate).IsRequired()
-            .HasColumnType("DateTime").HasDefaultValueSql("GetDate()");      
+            .HasColumnType("DateTime").HasDefaultValueSql("GetDate()");
+
+            builder.HasMany(u => u.RolePermissions).WithOne(x => x.Role)
+           .HasForeignKey(r => r.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(u => u.Claims).WithOne(x => x.Role)
+            .HasForeignKey(c => c.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(u => u.UserRoles).WithOne(x => x.Role)
+           .HasForeignKey(c => c.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
             Seed(builder);
         }
         public void Seed(EntityTypeBuilder<IdentityRole> builder)

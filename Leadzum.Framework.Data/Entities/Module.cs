@@ -28,6 +28,11 @@ namespace Leadzum.Framework.Data.Entities
         public bool IsClickable { get; set; } // IsClickable
         [Required]
         public int ViewOrder { get; set; } // ViewOrder
+
+        [MaxLength(32)]
+        [Required]
+        public string Area { get; set; } // Area (length: 32)
+
         [MaxLength(256)]
         [Required]
         public string Url { get; set; } // Url (length: 256)

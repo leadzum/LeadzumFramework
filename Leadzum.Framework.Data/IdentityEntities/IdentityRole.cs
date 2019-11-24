@@ -27,8 +27,11 @@ namespace Leadzum.Framework.Data.IdentityEntities
 
         public DateTime LastModifiedOnDate { get; set; }
 
-        [ForeignKey("RoleId")]
+
+        public ICollection<IdentityRoleClaim> Claims { get; set; }
         public ICollection<RolePermission> RolePermissions { get; set; }
+        
+        public ICollection<IdentityUserRole> UserRoles { get; set; }
 
         public IdentityRole()
         {

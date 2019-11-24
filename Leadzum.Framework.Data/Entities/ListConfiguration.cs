@@ -16,6 +16,9 @@ namespace Leadzum.Framework.Data.Entities
             builder.Property(p => p.LastModifiedOnDate).IsRequired()
             .HasColumnType("DateTime").HasDefaultValueSql("GetDate()");
 
+            builder.HasOne(u => u.Parent).WithMany(l => l.Lists)
+           .HasForeignKey(r => r.ParentId).OnDelete(DeleteBehavior.Restrict);
+
             Seed(builder);
         }
 

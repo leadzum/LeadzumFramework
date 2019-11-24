@@ -10,6 +10,8 @@ namespace Leadzum.Framework.Data.IdentityEntities
     {
         public void Configure(EntityTypeBuilder<IdentityRoleClaim> builder)
         {
+            builder.HasOne(p => p.Role).WithMany(m => m.Claims)
+           .HasForeignKey(r => r.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
             Seed(builder);
         }
         public void Seed(EntityTypeBuilder<IdentityRoleClaim> builder)

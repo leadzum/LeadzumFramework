@@ -33,7 +33,14 @@ namespace Leadzum.Framework.Data.IdentityEntities
 
         public DateTime LastModifiedOnDate { get; set; }
 
-        [ForeignKey("UserId")]
-        public virtual ICollection<RolePermission> RolePermissions { get; set; }
+        public virtual ICollection<IdentityUserRole> Roles { get; set; }
+
+        public virtual ICollection<IdentityUserClaim> Claims { get; set; }
+
+        public virtual ICollection<IdentityUserLogin> Logins { get; set; }
+
+        public virtual ICollection<IdentityUserToken> Tokens { get; set; }
+
+        public virtual ICollection<RolePermission> Permissions { get; set; }
     }
 }

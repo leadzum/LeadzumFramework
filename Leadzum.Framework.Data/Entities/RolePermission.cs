@@ -16,7 +16,7 @@ namespace Leadzum.Framework.Data.Entities
         public int PermissionId { get; set; } // PermissionId
         [Required]
         public bool AllowAccess { get; set; } // AllowAccess
-        public int RoleId { get; set; } // RoleId
+        public int? RoleId { get; set; } // RoleId
         public int? UserId { get; set; } // UserId
         public int? CreatedByUserId { get; set; } // CreatedByUserId
         public DateTime CreatedOnDate { get; set; } // CreatedOnDate

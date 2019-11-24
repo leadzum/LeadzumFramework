@@ -11,16 +11,16 @@
  * -------------------------
  */
 @font-face {
-  font-family: 'NewJune-Book';
-  src: url('../fonts/NewJune-Book.otf');
+    font-family: 'NewJune-Book';
+    src: url('../../fonts/NewJune-Book.otf');
 }
 @font-face {
-  font-family: 'NewJune-Medium';
-  src: url('../fonts/NewJune-Medium.otf');
+    font-family: 'NewJune-Medium';
+    src: url('../../fonts/NewJune-Medium.otf');
 }
 @font-face {
-  font-family: 'NewJune-Semibold';
-  src: url('../fonts/NewJune-Semibold.otf');
+    font-family: 'NewJune-Semibold';
+    src: url('../../fonts/NewJune-Semibold.otf');
 }
 html,
 body {

@@ -1,0 +1,39 @@
+﻿@model MenuViewModel
+
+@functions {
+    bool IsActiveNode(MenuViewModel node)
+    {
+        var rd = ViewContext.RouteData;
+        bool nodeActived = node.Controller == rd.Values["controller"].ToString() && node.Action == rd.Values["action"].ToString();
+        if (!nodeActived && node.Children != null && node.Children.Count > 0)
+        {
+            foreach (var child in node.Children)
+            {
+                if (IsActiveNode(child))
+                {
+                    nodeActived = true;
+                    break;
+                }
+            }
+        }
+        return nodeActived;
+    }
+}
+
+
+@{
+    string opened = @Model.IsActive ? "menu-open" : string.Empty;
+}
+
+<ul class="treeview-menu @opened">
+    @foreach (var node in Model.Children)
+    {
+        if (node.Name == "Separator")
+        {
+            <li class="divider"></li>
+            continue;
+        }
+        @(await Component.InvokeAsync("Menu", new { area = "Admin", node = node, topMenu = true }))
+    }
+</ul>
+

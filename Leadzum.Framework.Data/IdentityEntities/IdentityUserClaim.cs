@@ -7,5 +7,6 @@ namespace Leadzum.Framework.Data.IdentityEntities
 {
     public class IdentityUserClaim : IdentityUserClaim<int>
     {
+        public ApplicationUser User { get; set; }
     }
 }

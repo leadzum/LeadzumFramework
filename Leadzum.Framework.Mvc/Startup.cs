@@ -14,6 +14,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Leadzum.Framework.Data;
 using Leadzum.Framework.Data.IdentityEntities;
+using Leadzum.Framework.Service.MappingConfig;
+using AutoMapper;
+using Microsoft.Extensions.Logging;
+using Leadzum.Framework.Service.DataServices;
+using Leadzum.Framework.IService;
+using Leadzum.Framework.Mvc.Utility;
 
 namespace Leadzum.Framework.Mvc
 {
@@ -36,14 +42,18 @@ namespace Leadzum.Framework.Mvc
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")).EnableSensitiveDataLogging());
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(
+            //        Configuration.GetConnectionString("DefaultConnection")).EnableSensitiveDataLogging());
+            services.AddDbContextPool<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<ApplicationUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+
+            services.AddAutoMapper(typeof(DomainModelToEntityProfile), typeof(ViewModelToDomainModelProfile));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddSingleton(typeof(IModuleService), typeof(ModuleService));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

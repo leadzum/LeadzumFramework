@@ -16,8 +16,23 @@ namespace Leadzum.Framework.Data.IdentityEntities
             builder.Property(p => p.CreatedOnDate).IsRequired()
              .HasColumnType("DateTime").HasDefaultValueSql("GetDate()");
 
-            builder.Property(p => p.LastModifiedOnDate).IsRequired()
-            .HasColumnType("DateTime").HasDefaultValueSql("GetDate()");
+            builder.Property(p => p.LastModifiedOnDate).IsRequired().
+            HasColumnType("DateTime").HasDefaultValueSql("GetDate()");
+
+            builder.HasMany(u => u.Roles).WithOne(x=>x.User)
+            .HasForeignKey(r => r.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(u => u.Claims).WithOne(x => x.User)
+            .HasForeignKey(c => c.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(u => u.Logins).WithOne(x => x.User)
+           .HasForeignKey(c => c.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(u => u.Tokens).WithOne(x => x.User)
+           .HasForeignKey(c => c.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(u => u.Permissions).WithOne(x => x.User)
+            .HasForeignKey(c => c.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
 
             Seed(builder);
         }

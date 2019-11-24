@@ -9,6 +9,10 @@ namespace Leadzum.Framework.Data.Entities
         {
             builder.Property(p => p.LogCreatedDate).IsRequired()
             .HasColumnType("DateTime").HasDefaultValueSql("GetDate()");
+
+            builder.HasOne(u => u.EventLogType).WithMany(l => l.EventLogs)
+           .HasForeignKey(r => r.LogTypeId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
             Seed(builder);
         }
         public void Seed(EntityTypeBuilder<EventLog> builder)

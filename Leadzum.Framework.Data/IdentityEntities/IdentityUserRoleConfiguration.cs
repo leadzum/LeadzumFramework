@@ -11,6 +11,12 @@ namespace Leadzum.Framework.Data.IdentityEntities
     {
         public void Configure(EntityTypeBuilder<IdentityUserRole> builder)
         {
+            builder.HasOne(u => u.User).WithMany(x => x.Roles)
+            .HasForeignKey(r => r.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne(u => u.Role).WithMany(x => x.UserRoles)
+           .HasForeignKey(r => r.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+
             Seed(builder);
         }
         public void Seed(EntityTypeBuilder<IdentityUserRole> builder)

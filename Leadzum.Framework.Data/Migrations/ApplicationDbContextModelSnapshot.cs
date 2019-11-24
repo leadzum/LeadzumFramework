@@ -328,8 +328,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 1,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 3, DateTimeKind.Local).AddTicks(6507),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 3, DateTimeKind.Local).AddTicks(7166),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 193, DateTimeKind.Local).AddTicks(4360),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 193, DateTimeKind.Local).AddTicks(5225),
                             ListName = "DateFormat",
                             SortOrder = 0,
                             Text = "yyyy-MM-dd",
@@ -338,8 +338,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 2,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1615),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1623),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(499),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(507),
                             ListName = "DateFormat",
                             SortOrder = 1,
                             Text = "M/d/yyyy",
@@ -348,8 +348,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 3,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1777),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1777),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(815),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(815),
                             ListName = "DateFormat",
                             SortOrder = 2,
                             Text = "MM/dd/yyyy",
@@ -358,8 +358,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 4,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1836),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1840),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(906),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(906),
                             ListName = "DateFormat",
                             SortOrder = 3,
                             Text = "MMM d, yyyy",
@@ -368,8 +368,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 5,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1892),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1896),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(985),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(985),
                             ListName = "DateFormat",
                             SortOrder = 4,
                             Text = "MMM dd, yyyy",
@@ -378,8 +378,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 6,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1998),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(1998),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1064),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1064),
                             ListName = "DateFormat",
                             SortOrder = 5,
                             Text = "d/M/yyyy",
@@ -388,8 +388,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 7,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2057),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2057),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1143),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1143),
                             ListName = "DateFormat",
                             SortOrder = 6,
                             Text = "dd/MM/yyyy",
@@ -398,8 +398,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 8,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2109),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2109),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1214),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1214),
                             ListName = "DateFormat",
                             SortOrder = 7,
                             Text = "d MMM, yyyy",
@@ -408,8 +408,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 9,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2156),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2156),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1285),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1285),
                             ListName = "DateFormat",
                             SortOrder = 8,
                             Text = "dd MMM, yyyy",
@@ -418,8 +418,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 10,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2212),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2212),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1364),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1368),
                             ListName = "DateFormat",
                             SortOrder = 9,
                             Text = "dd-MMM-yyyy",
@@ -428,8 +428,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 11,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2421),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2421),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1664),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1664),
                             ListName = "LongTimeFormat",
                             SortOrder = 0,
                             Text = "h:mm:ss tt",
@@ -438,8 +438,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 12,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2528),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2528),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1842),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1842),
                             ListName = "LongTimeFormat",
                             SortOrder = 1,
                             Text = "hh:mm:ss tt",
@@ -448,8 +448,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 13,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2579),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2579),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1917),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1917),
                             ListName = "LongTimeFormat",
                             SortOrder = 2,
                             Text = "H:mm:ss",
@@ -458,8 +458,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 14,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2674),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2674),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1988),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(1988),
                             ListName = "LongTimeFormat",
                             SortOrder = 3,
                             Text = "HH:mm:ss",
@@ -468,8 +468,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 15,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2808),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2812),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2178),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2182),
                             ListName = "ShortTimeFormat",
                             SortOrder = 0,
                             Text = "h:mm tt",
@@ -478,8 +478,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 16,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2895),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2895),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2308),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2308),
                             ListName = "ShortTimeFormat",
                             SortOrder = 1,
                             Text = "hh:mm tt",
@@ -488,8 +488,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 17,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2942),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2946),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2383),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2383),
                             ListName = "ShortTimeFormat",
                             SortOrder = 2,
                             Text = "H:mm",
@@ -498,8 +498,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 18,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2994),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(2994),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2533),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2533),
                             ListName = "ShortTimeFormat",
                             SortOrder = 3,
                             Text = "HH:mm",
@@ -508,8 +508,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 19,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3100),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3100),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2715),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2715),
                             ListName = "DataType",
                             SortOrder = 0,
                             Text = "Undefined",
@@ -518,8 +518,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 20,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3132),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3136),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2766),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2766),
                             ListName = "DataType",
                             SortOrder = 1,
                             Text = "Integer",
@@ -528,8 +528,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 21,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3207),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3211),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2774),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2778),
                             ListName = "DataType",
                             SortOrder = 2,
                             Text = "Text",
@@ -538,8 +538,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 22,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3215),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3215),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2782),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2786),
                             ListName = "DataType",
                             SortOrder = 3,
                             Text = "Boolean",
@@ -548,8 +548,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 23,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3219),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3223),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2790),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2790),
                             ListName = "DataType",
                             SortOrder = 4,
                             Text = "DateTime",
@@ -558,8 +558,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 24,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3227),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3227),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2798),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2798),
                             ListName = "DataType",
                             SortOrder = 5,
                             Text = "Image",
@@ -568,8 +568,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 25,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3278),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3282),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2873),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2873),
                             ListName = "LogCategory",
                             SortOrder = 0,
                             Text = "Admin Log",
@@ -578,8 +578,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 26,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3361),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3365),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2991),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(2991),
                             ListName = "LogCategory",
                             SortOrder = 1,
                             Text = "Maintenance Log",
@@ -588,8 +588,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 27,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3417),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3417),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3067),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3067),
                             ListName = "LogCategory",
                             SortOrder = 2,
                             Text = "Exception Log",
@@ -598,8 +598,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 28,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3511),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3515),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3418),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3418),
                             ListName = "LogCategory",
                             SortOrder = 0,
                             Text = "WebServiceUser",
@@ -608,8 +608,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 29,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3571),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3571),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3517),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3517),
                             ListName = "LogCategory",
                             SortOrder = 1,
                             Text = "SystemAdmin",
@@ -618,8 +618,8 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             EntryId = 30,
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3602),
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 4, DateTimeKind.Local).AddTicks(3602),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3568),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 194, DateTimeKind.Local).AddTicks(3568),
                             ListName = "LogCategory",
                             SortOrder = 2,
                             Text = "SystemUser",
@@ -632,6 +632,10 @@ namespace Leadzum.Framework.Data.Migrations
                     b.Property<int>("ModuleId")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Area")
+                        .IsRequired()
+                        .HasMaxLength(32);
 
                     b.Property<string>("Code")
                         .IsRequired()
@@ -683,12 +687,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 1,
+                            Area = "Admin",
                             Code = "DASHBOARD",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 10, DateTimeKind.Local).AddTicks(6491),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 205, DateTimeKind.Local).AddTicks(5683),
                             Description = "Dashboard",
                             IconFile = "fa fa-tachometer",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 10, DateTimeKind.Local).AddTicks(7120),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 205, DateTimeKind.Local).AddTicks(6457),
                             Name = "Dashboard",
                             Type = 1,
                             Url = "Home/Index",
@@ -697,12 +702,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 2,
+                            Area = "Admin",
                             Code = "ADMIN_USER_AND_PERMISSIOIN",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3580),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4074),
                             Description = "User, role and permission management",
                             IconFile = "fa fa-users",
                             IsClickable = false,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3587),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4082),
                             Name = "User & Permission",
                             Type = 1,
                             Url = "",
@@ -711,12 +717,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 3,
+                            Area = "Admin",
                             Code = "ADMIN_SYSTEM",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3631),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4137),
                             Description = "System configuration",
                             IconFile = "fa fa-cogs",
                             IsClickable = false,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3631),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4137),
                             Name = "System",
                             Type = 1,
                             Url = "",
@@ -725,12 +732,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 4,
+                            Area = "Admin",
                             Code = "ADMIN_USER_MANAGEMENT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3785),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4338),
                             Description = "User management",
                             IconFile = "fa fa-tachometer",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3785),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4338),
                             Name = "Users",
                             ParentId = 2,
                             Type = 1,
@@ -740,12 +748,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 5,
+                            Area = "Admin",
                             Code = "ADMIN_ROLE_MANAGEMENT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3789),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4342),
                             Description = "Role management",
                             IconFile = "fa fa-users",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3789),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4346),
                             Name = "Roles",
                             ParentId = 2,
                             Type = 1,
@@ -755,12 +764,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 6,
+                            Area = "Admin",
                             Code = "ADMIN_PERMISSION_MANAGEMENT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3793),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4346),
                             Description = "Permission management",
                             IconFile = "fa fa-cogs",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3793),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4346),
                             Name = "Permissions",
                             ParentId = 2,
                             Type = 1,
@@ -770,12 +780,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 7,
+                            Area = "Admin",
                             Code = "ADMIN_SYSTEM_CONFIG",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3903),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4354),
                             Description = "System configuration",
                             IconFile = "fa fa-tachometer",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3903),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4358),
                             Name = "Configuration",
                             ParentId = 3,
                             Type = 1,
@@ -785,12 +796,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 8,
+                            Area = "Admin",
                             Code = "ADMIN_SYSTEM_MODULE",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3907),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4358),
                             Description = "System module management",
                             IconFile = "fa fa-users",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3907),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4358),
                             Name = "Modules",
                             ParentId = 3,
                             Type = 1,
@@ -800,12 +812,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 9,
+                            Area = "Admin",
                             Code = "ADMIN_SYSTEM_AUDIT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3907),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4362),
                             Description = "System audit logs",
                             IconFile = "fa fa-cogs",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3907),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4362),
                             Name = "Audit Logs",
                             ParentId = 3,
                             Type = 1,
@@ -815,12 +828,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 10,
+                            Area = "Admin",
                             Code = "ADMIN_SYSTEM_GENERAL",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3911),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4366),
                             Description = "System general settings",
                             IconFile = "fa fa-tachometer",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3915),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4370),
                             Name = "General",
                             ParentId = 7,
                             Type = 1,
@@ -830,12 +844,13 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 11,
+                            Area = "Admin",
                             Code = "ADMIN_SYSTEM_ADVANCED",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3915),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4370),
                             Description = "System advanced settings",
                             IconFile = "fa fa-users",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3915),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4370),
                             Name = "Advanced",
                             ParentId = 7,
                             Type = 1,
@@ -845,39 +860,42 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 12,
+                            Area = "Admin",
                             Code = "ACTION_SYSTEM_GENERAL_EDIT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3919),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4374),
                             Description = "Edit system general settings",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3919),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4374),
                             Name = "Edit",
                             ParentId = 10,
-                            Type = 1,
+                            Type = 3,
                             Url = "Admin/System/GeneralEdit",
                             ViewOrder = 1
                         },
                         new
                         {
                             ModuleId = 13,
+                            Area = "Admin",
                             Code = "ACTION_SYSTEM_ADVANCED_EDIT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3923),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4378),
                             Description = "Edit system advanced settings",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3923),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4378),
                             Name = "Edit",
                             ParentId = 11,
-                            Type = 1,
+                            Type = 3,
                             Url = "Admin/System/AdvancedEdit",
                             ViewOrder = 1
                         },
                         new
                         {
                             ModuleId = 14,
+                            Area = "Admin",
                             Code = "ACTION_USER_ADD",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3927),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4382),
                             Description = "Add User",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3927),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4382),
                             Name = "Add User",
                             ParentId = 4,
                             Type = 3,
@@ -887,11 +905,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 15,
+                            Area = "Admin",
                             Code = "ACTION_USER_EDIT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3927),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4386),
                             Description = "Edit User",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3927),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4386),
                             Name = "Edit User",
                             ParentId = 4,
                             Type = 3,
@@ -901,11 +920,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 16,
+                            Area = "Admin",
                             Code = "ACTION_USER_DELETE",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3931),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4390),
                             Description = "Delete User",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3931),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4390),
                             Name = "Delete User",
                             ParentId = 4,
                             Type = 3,
@@ -915,11 +935,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 17,
+                            Area = "Admin",
                             Code = "ACTION_ROLE_ADD",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3935),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4394),
                             Description = "Add Role",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3935),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4394),
                             Name = "Add Role",
                             ParentId = 5,
                             Type = 3,
@@ -929,11 +950,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 18,
+                            Area = "Admin",
                             Code = "ACTION_ROLE_EDIT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3935),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4394),
                             Description = "Edit Role",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3935),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4398),
                             Name = "Edit Role",
                             ParentId = 5,
                             Type = 3,
@@ -943,11 +965,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 19,
+                            Area = "Admin",
                             Code = "ACTION_ROLE_DELETE",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3939),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4398),
                             Description = "Delete Role",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3939),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4398),
                             Name = "Delete Role",
                             ParentId = 5,
                             Type = 3,
@@ -957,11 +980,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 20,
+                            Area = "Admin",
                             Code = "ACTION_PERMISSION_ADD",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3943),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4406),
                             Description = "Add Permission",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3943),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4406),
                             Name = "Add Permission",
                             ParentId = 6,
                             Type = 3,
@@ -971,11 +995,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 21,
+                            Area = "Admin",
                             Code = "ACTION_PERMISSION_EDIT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3943),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4406),
                             Description = "Edit Permission",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3943),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4406),
                             Name = "Edit Permission",
                             ParentId = 6,
                             Type = 3,
@@ -985,11 +1010,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 22,
+                            Area = "Admin",
                             Code = "ACTION_PERMISSION_DELETE",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3947),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4410),
                             Description = "Delete Permission",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3947),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4410),
                             Name = "Delete Permission",
                             ParentId = 6,
                             Type = 3,
@@ -999,11 +1025,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 23,
+                            Area = "Admin",
                             Code = "ACTION_MODULE_ADD",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3947),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4413),
                             Description = "Add Module",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3951),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4413),
                             Name = "Add Module",
                             ParentId = 8,
                             Type = 3,
@@ -1013,11 +1040,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 24,
+                            Area = "Admin",
                             Code = "ACTION_MODULE_EDIT",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3951),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4477),
                             Description = "Edit Module",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3951),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4477),
                             Name = "Edit Module",
                             ParentId = 8,
                             Type = 3,
@@ -1027,11 +1055,12 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             ModuleId = 25,
+                            Area = "Admin",
                             Code = "ACTION_MODULE_DELETE",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3955),
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4481),
                             Description = "Delete Module",
                             IsClickable = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 11, DateTimeKind.Local).AddTicks(3955),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 206, DateTimeKind.Local).AddTicks(4481),
                             Name = "Delete Module",
                             ParentId = 8,
                             Type = 3,
@@ -1094,9 +1123,11 @@ namespace Leadzum.Framework.Data.Migrations
 
                     b.Property<int>("PermissionId");
 
-                    b.Property<int>("RoleId");
+                    b.Property<int?>("RoleId")
+                        .IsRequired();
 
-                    b.Property<int?>("UserId");
+                    b.Property<int?>("UserId")
+                        .IsRequired();
 
                     b.HasKey("RolePermissionId");
 
@@ -1162,7 +1193,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "dd-MMM-yyyy",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 999, DateTimeKind.Local).AddTicks(7368),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 187, DateTimeKind.Local).AddTicks(7375),
                             Length = 15,
                             ViewOrder = 0
                         },
@@ -1175,7 +1206,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "HH:mm",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3278),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4032),
                             Length = 15,
                             ViewOrder = 0
                         },
@@ -1188,7 +1219,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "HH:mm:ss",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3318),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4084),
                             Length = 15,
                             ViewOrder = 0
                         },
@@ -1201,7 +1232,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3322),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4087),
                             Length = 30,
                             ViewOrder = 0
                         },
@@ -1214,7 +1245,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 1,
                             DefaultValue = "25",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3322),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4091),
                             Length = 0,
                             ViewOrder = 0
                         },
@@ -1227,7 +1258,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 3,
                             DefaultValue = "False",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3330),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4099),
                             Length = 0,
                             ViewOrder = 0
                         },
@@ -1240,7 +1271,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3330),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4099),
                             Length = 30,
                             ViewOrder = 0
                         },
@@ -1253,7 +1284,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3334),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4103),
                             Length = 30,
                             ViewOrder = 0
                         },
@@ -1266,7 +1297,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "False",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3334),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4107),
                             Length = 0,
                             ViewOrder = 0
                         },
@@ -1279,7 +1310,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3338),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4111),
                             Length = 30,
                             ViewOrder = 0
                         },
@@ -1292,7 +1323,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 2,
                             DefaultValue = "",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3342),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4111),
                             Length = 30,
                             ViewOrder = 0
                         },
@@ -1305,7 +1336,7 @@ namespace Leadzum.Framework.Data.Migrations
                             DataType = 3,
                             DefaultValue = "False",
                             IsVisible = true,
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 43, 0, DateTimeKind.Local).AddTicks(3342),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 188, DateTimeKind.Local).AddTicks(4115),
                             Length = 0,
                             ViewOrder = 0
                         });
@@ -1397,7 +1428,7 @@ namespace Leadzum.Framework.Data.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "42529d69-4914-493f-ab33-4c26551a56de",
+                            ConcurrencyStamp = "0bc136a0-b29e-46a9-81e0-8a56ed9fad19",
                             CreatedOnDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DisplayName = "Super Admin",
                             Email = "superadmin@mail.com",
@@ -1409,7 +1440,7 @@ namespace Leadzum.Framework.Data.Migrations
                             NormalizedEmail = "SUPERADMIN@MAIL.COM",
                             NormalizedUserName = "SUPERADMIN@MAIL.COM",
                             PasswordChangeStatus = 0,
-                            PasswordHash = "AQAAAAEAACcQAAAAEPhWm0uODTRr5IlIyi319vgw9L7KHJIV4N33MbYaTWkdtOUd0Drl2XM4wwmuOk2FLw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKxbYuOfS48Bfwu+BYKdxRym5FemYaYoUoAhdWYL9RHOh7e0srPu2FRaDZlOSra4Mw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1473,10 +1504,10 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "079e0657-6e15-4083-a78c-710d4c613faf",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 993, DateTimeKind.Local).AddTicks(4525),
+                            ConcurrencyStamp = "57a38a87-5932-4f99-9e73-7c927de6f769",
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 174, DateTimeKind.Local).AddTicks(8581),
                             Description = "Web Service Client",
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 994, DateTimeKind.Local).AddTicks(981),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 175, DateTimeKind.Local).AddTicks(6819),
                             Name = "Web Service Client",
                             RoleCode = "SERVICE_CLIENT",
                             UserCategory = 1
@@ -1484,10 +1515,10 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             Id = 100,
-                            ConcurrencyStamp = "368ed497-4294-4058-82d1-154d60e1d0a8",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 995, DateTimeKind.Local).AddTicks(8364),
+                            ConcurrencyStamp = "5eeb0b3c-0594-409b-a13d-71a480761d20",
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 178, DateTimeKind.Local).AddTicks(2391),
                             Description = "Super Admin",
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 995, DateTimeKind.Local).AddTicks(8367),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 178, DateTimeKind.Local).AddTicks(2403),
                             Name = "Super Admin",
                             RoleCode = "SUPER_ADMIN",
                             UserCategory = 2
@@ -1495,10 +1526,10 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             Id = 101,
-                            ConcurrencyStamp = "ad12519d-0c1f-4a61-93c7-df654d8e983a",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 995, DateTimeKind.Local).AddTicks(8687),
+                            ConcurrencyStamp = "18bc1e77-2d32-41d9-9f6a-03bb2067f525",
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 178, DateTimeKind.Local).AddTicks(2802),
                             Description = "Admin",
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 995, DateTimeKind.Local).AddTicks(8687),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 178, DateTimeKind.Local).AddTicks(2802),
                             Name = "Admin",
                             RoleCode = "ADMIN",
                             UserCategory = 2
@@ -1506,10 +1537,10 @@ namespace Leadzum.Framework.Data.Migrations
                         new
                         {
                             Id = 200,
-                            ConcurrencyStamp = "9918143a-e079-4f6a-b20d-9cd8ec77aeba",
-                            CreatedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 995, DateTimeKind.Local).AddTicks(8826),
+                            ConcurrencyStamp = "34b2a1fe-10d3-4916-b785-05f6a36b8460",
+                            CreatedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 178, DateTimeKind.Local).AddTicks(3161),
                             Description = "Member",
-                            LastModifiedOnDate = new DateTime(2019, 6, 8, 20, 24, 42, 995, DateTimeKind.Local).AddTicks(8826),
+                            LastModifiedOnDate = new DateTime(2019, 9, 28, 23, 7, 15, 178, DateTimeKind.Local).AddTicks(3161),
                             Name = "Member",
                             RoleCode = "MEMBER",
                             UserCategory = 3
@@ -1622,14 +1653,16 @@ namespace Leadzum.Framework.Data.Migrations
                 {
                     b.HasOne("Leadzum.Framework.Data.Entities.List", "Parent")
                         .WithMany("Lists")
-                        .HasForeignKey("ParentId");
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 
             modelBuilder.Entity("Leadzum.Framework.Data.Entities.Module", b =>
                 {
                     b.HasOne("Leadzum.Framework.Data.Entities.Module", "Parent")
                         .WithMany("Modules")
-                        .HasForeignKey("ParentId");
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 
             modelBuilder.Entity("Leadzum.Framework.Data.Entities.Permission", b =>
@@ -1653,51 +1686,52 @@ namespace Leadzum.Framework.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser", "User")
-                        .WithMany("RolePermissions")
-                        .HasForeignKey("UserId");
+                        .WithMany("Permissions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Leadzum.Framework.Data.IdentityEntities.IdentityRoleClaim", b =>
                 {
-                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.IdentityRole")
-                        .WithMany()
+                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.IdentityRole", "Role")
+                        .WithMany("Claims")
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Leadzum.Framework.Data.IdentityEntities.IdentityUserClaim", b =>
                 {
-                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser")
-                        .WithMany()
+                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser", "User")
+                        .WithMany("Claims")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Leadzum.Framework.Data.IdentityEntities.IdentityUserLogin", b =>
                 {
-                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser")
-                        .WithMany()
+                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser", "User")
+                        .WithMany("Logins")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Leadzum.Framework.Data.IdentityEntities.IdentityUserRole", b =>
                 {
-                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.IdentityRole")
-                        .WithMany()
+                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.IdentityRole", "Role")
+                        .WithMany("UserRoles")
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser")
-                        .WithMany()
+                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser", "User")
+                        .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("Leadzum.Framework.Data.IdentityEntities.IdentityUserToken", b =>
                 {
-                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser")
-                        .WithMany()
+                    b.HasOne("Leadzum.Framework.Data.IdentityEntities.ApplicationUser", "User")
+                        .WithMany("Tokens")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

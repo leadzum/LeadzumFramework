@@ -1,0 +1,52 @@
+﻿@model MenuViewModel
+
+@functions {
+bool IsActiveNode(MenuViewModel node)
+{
+    var rd = ViewContext.RouteData;
+    bool nodeActived = node.Controller == rd.Values["controller"].ToString() && node.Action == rd.Values["action"].ToString();
+    if (!nodeActived && node.Children != null && node.Children.Count > 0)
+    {
+        foreach (var child in node.Children)
+        {
+            if (IsActiveNode(child))
+            {
+                nodeActived = true;
+                break;
+            }
+        }
+    }
+    return nodeActived;
+}
+}
+
+@*<ul class="sidebar-menu">*@
+@{
+    var node = Model;
+    string url = node.IsClickable ? node.Url : "#";
+    var isActive = IsActiveNode(node);
+    string active = isActive ? "active" : string.Empty;
+    var hasChild = node.Children.Count > 0;
+    var topLevel = node.Parent == null;
+    string treeNode = (hasChild && topLevel) ? "treeview" : string.Empty;
+
+    <li class="@treeNode @active">
+        <a href="@url">
+            <i class="@node.IconFile"></i> <span data-toggle="tooltip" data-placement="right" title="@node.Description">@node.Name</span>
+            @if (hasChild)
+            {
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right" data-toggle="tooltip" data-placement="right" title="@node.Description"></i>
+                </span>
+            }
+        </a>
+        @if (hasChild)
+        {
+            string opened = isActive ? "menu-open" : string.Empty;
+
+            @(await Component.InvokeAsync("Menu", new { area = node.Area, node = node, topMenu = false }))
+
+        }
+    </li>
+}
+@*</ul>*@

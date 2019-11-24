@@ -7,5 +7,6 @@ namespace Leadzum.Framework.Data.IdentityEntities
 {
     public class IdentityRoleClaim : IdentityRoleClaim<int>
     {
+        public IdentityRole Role { get; set; }
     }
 }
